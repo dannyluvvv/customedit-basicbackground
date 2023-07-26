@@ -202,7 +202,7 @@ height: 3.75pc;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    box-shadow:0 70px 0px rgba(var(--transparencycolor),0.2);
+    box-shadow:0 64px 0px rgba(var(--transparencycolor),0.2);
     height: calc(100% - var(--message-bar-height));
     overflow: auto;
 }
@@ -362,3 +362,4 @@ backdrop-filter: blur(0px);
 	*/
 	
 }
+
