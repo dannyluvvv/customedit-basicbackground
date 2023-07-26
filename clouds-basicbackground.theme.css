@@ -206,6 +206,7 @@ overflow-y: auto;
     height: calc(100% - var(--message-bar-height));
     overflow: auto;
 	flex-wrap: nowrap;
+	flex-grow: 1;
 }
 .content-1jQy2l {
     min-width: 0;
