@@ -1,15 +1,20 @@
 /**
+Template:
  * @name BasicBackground
  * @description Allows you to use a Background Image without greatly altering the basic Layout of Discord
  * @author DevilBro
  * @version 1.0.5
  * @authorId 278543574059057154
- * @invite Jx3TjNS
- * @donate https://www.paypal.me/MircoWittrien
- * @patreon https://www.patreon.com/MircoWittrien
  * @website https://mwittrien.github.io/
  * @source https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground/
  * @updateUrl https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.theme.css
+Custom Edit:
+ * @name Clouds
+ * @description A beautiful theme for discord clients.
+ * @authorOfEdit dannyluvvv
+ * @website https://.github.io/dannyluvvv
+ * @version 0.9.0
+ * @updateUrl https://github.com/dannyluvvv/customedit-basicbackground/edit/main/clouds-basicbackground.theme.css
  */
 
 /* To change stuff like the colors, transparency and background image, change the variables inside the root {}, do NOT change the @import url() */
