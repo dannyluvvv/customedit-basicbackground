@@ -17,7 +17,6 @@ Changes to template:
 - stronger shadow boxes
 
 Known flaws:
-- gap below members-list --> design flaw
 - date display for above first message of the day has weird corner issue
 - general issue with rounded corners on overlaying boxes
 - when in call, the vc-control-account-box expands creating weird step between vc-control-account-box with vc-control and enter-message-bar
