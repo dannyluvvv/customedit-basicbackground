@@ -164,17 +164,19 @@ height: 3.75pc;
 #app-mount .panels-3wFtMD {
    height: var(--voicemicmute-bar-height);
 }
-.form-3gdLxP { /*messagebar, type message*/
+.form-3gdLxP { /*message bar, type message*/
     background: rgba(0, 0, 0, 0);
 	margin-right:-240px;
 	margin-left:-240px;
-    padding:0px 250px 0px 250px;	
+    padding:0px 250px 0px 250px;
+    /*border-top-right-radius: calc(8px * (1 - (var(--memberlisttransparency) / (var(--memberlisttransparency) + 0.00000000000000000000001))));
+    border-top-left-radius: calc(8px * (1 - (var(--guildchanneltransparency) / (var(--guildchanneltransparency) + 0.00000000000000000000001))));*/
+	border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 	box-shadow: 0 1px 50px rgba(var(--transparencycolor), .2), 0 1.5px 50px rgba(var(--transparencycolor), .2), 0 2px 50px rgba(var(--transparencycolor), .05);
 	height: var(--message-bar-height);
 	flex:0;
 	flex-basis:auto;
-	border-top-left-radius:0;
- border-top-right-radius:0;
     
 }
 
@@ -192,8 +194,7 @@ height: 3.75pc;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     max-height: 100%;
-	flex-grow: 1;
-overflow-y: auto;
+	overflow:hidden scroll;
 }
 
 .container-2o3qEW { /*Memberslist*/
@@ -201,39 +202,9 @@ overflow-y: auto;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-
     box-shadow:0 70px 0px rgba(var(--transparencycolor),0.2);
-    max-height: calc(100% - var(--message-bar-height));
-    overflow-y: auto;
-	flex-wrap: nowrap;
-	flex-grow: 1;
-	flex-shrink:1;
-}
-.content-1jQy2l {
-    min-width: 0;
-    min-height: 0;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: stretch;
-    -ms-flex-pack: stretch;
-    justify-content: stretch;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    position: relative;
-}
-.membersWrap-3NUR2t {
-    background-color: rgba(var(--transparencycolor), var(--memberlisttransparency));
-    box-shadow:0 65px 0px rgba(var(--transparencycolor),0.2);
-	height: 100%;
+    height: calc(100% - var(--message-bar-height));
+    overflow: auto;
 }
 .message-2CShn3.ephemeral-2nDdnn, .message-2CShn3.replying-eZ7p5z {
     background-image: var(--transparencyalpha);
@@ -293,8 +264,7 @@ overflow-y: auto;
     border-top: 0px solid rgba(var(--transparencycolor), .2);
 }
 .channelTextArea-1FufC0 { /*messagebar only*/
- border-top-left-radius:0;
- border-top-right-radius:0;
+ 
  margin: 10px 0px 10px 0px;
 }
 .userPanelInnerThemed-2xZFjl {
@@ -340,7 +310,7 @@ backdrop-filter: blur(0px);
 	--channeltextarea-background: rgba(var(--transparencycolor), 0.1);
 	--background-accent: rgba(var(--transparencycolor), .5);
 	--logo-primary: pink; /*default rgb(var(--textbrightest))*/
-    --message-bar-height: auto;
+    --message-bar-height: 64px;
 	--voicemicmute-bar-height: var(--message-bar-height)
 	--background-primary: rgba(var(--transparencycolor), .2);
 	--background-secondary: rgba(var(--transparencycolor), .2);
