@@ -4,7 +4,7 @@ The ground stone for this theme was the [BasicBackground](https://github.com/mwi
 
 I made various changes to this template which I will list not in detail below. 
 
-![image](https://github.com/dannyluvvv/customedit-basicbackground/assets/140633387/cd3ea06d-1b60-4bb5-8526-ff277edc5b73)
+![image](https://github.com/dannyluvvv/customedit-basicbackground/assets/140633387/ed776e73-e46b-4a5c-a8ec-74e33bd9f290)
 ![image](https://github.com/dannyluvvv/customedit-basicbackground/assets/140633387/019f24bc-6317-4371-aed7-58c117f14eab)
 
 
