@@ -171,7 +171,7 @@ height: 3.75pc;
     padding:0px 250px 0px 250px;	
 	box-shadow: 0 1px 50px rgba(var(--transparencycolor), .2), 0 1.5px 50px rgba(var(--transparencycolor), .2), 0 2px 50px rgba(var(--transparencycolor), .05);
 	height: var(--message-bar-height);
-	flex:1;
+	flex:0;
 	flex-basis:auto;
 	border-top-left-radius:0;
  border-top-right-radius:0;
