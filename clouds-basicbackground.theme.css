@@ -177,9 +177,7 @@ height: 3.75pc;
  border-top-right-radius:0;
     
 }
-div.container-zero{
-    box-shadow:0 1px 50px rgba(var(--transparencycolor),.2)
-}
+
 .container-A2jo65 {
     background: rgba(var(--transparencycolor), .3);
     border: none;
@@ -194,7 +192,7 @@ div.container-zero{
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     max-height: 100%;
-	overflow:hidden scroll;
+
 }
 
 .container-2o3qEW { /*Memberslist*/
@@ -204,7 +202,7 @@ div.container-zero{
     flex-direction: column;
     box-shadow:0 70px 0px rgba(var(--transparencycolor),0.2);
     height: calc(100% - var(--message-bar-height));
-    
+    overflow: auto;
 }
 .content-1jQy2l {
     min-width: 0;
