@@ -208,6 +208,11 @@ div.container-zero{
     height: calc(100% - var(--message-bar-height));
     overflow: auto;
 }
+.membersWrap-3NUR2t {
+    background-color: rgba(var(--transparencycolor), var(--memberlisttransparency));
+    box-shadow:0 65px 0px rgba(var(--transparencycolor),0.2);
+	height: 100%;
+}
 .message-2CShn3.ephemeral-2nDdnn, .message-2CShn3.replying-eZ7p5z {
     background-image: var(--transparencyalpha);
 }
