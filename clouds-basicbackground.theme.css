@@ -206,6 +206,27 @@ div.container-zero{
     height: calc(100% - var(--message-bar-height));
     overflow: auto;
 }
+.content-1jQy2l {
+    min-width: 0;
+    min-height: 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row column;
+    -webkit-box-pack: stretch;
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    position: relative;
+}
 .membersWrap-3NUR2t {
     background-color: rgba(var(--transparencycolor), var(--memberlisttransparency));
     box-shadow:0 65px 0px rgba(var(--transparencycolor),0.2);
