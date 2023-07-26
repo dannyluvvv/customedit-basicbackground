@@ -2,7 +2,7 @@
 
 The ground stone for this theme was the [BasicBackground](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground) Theme by DevilBro. 
 
-I made various changes to this template which I will list not in detail below. 
+I made various small changes to this template which I will list below. 
 
 ![image](https://github.com/dannyluvvv/customedit-basicbackground/assets/140633387/ed776e73-e46b-4a5c-a8ec-74e33bd9f290)
 ![image](https://github.com/dannyluvvv/customedit-basicbackground/assets/140633387/019f24bc-6317-4371-aed7-58c117f14eab)
