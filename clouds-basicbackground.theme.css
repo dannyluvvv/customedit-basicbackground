@@ -164,15 +164,14 @@ height: 3.75pc;
 #app-mount .panels-3wFtMD {
    height: var(--voicemicmute-bar-height);
 }
-.form-3gdLxP { /*message bar, type message*/
+.form-3gdLxP { /*messagebar, type message*/
     background: rgba(0, 0, 0, 0);
 	margin-right:-240px;
 	margin-left:-240px;
     padding:0px 250px 0px 250px;
     /*border-top-right-radius: calc(8px * (1 - (var(--memberlisttransparency) / (var(--memberlisttransparency) + 0.00000000000000000000001))));
     border-top-left-radius: calc(8px * (1 - (var(--guildchanneltransparency) / (var(--guildchanneltransparency) + 0.00000000000000000000001))));*/
-	border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+	
 	box-shadow: 0 1px 50px rgba(var(--transparencycolor), .2), 0 1.5px 50px rgba(var(--transparencycolor), .2), 0 2px 50px rgba(var(--transparencycolor), .05);
 	height: var(--message-bar-height);
 	flex:0;
