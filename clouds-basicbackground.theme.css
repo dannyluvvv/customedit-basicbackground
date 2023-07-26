@@ -192,7 +192,8 @@ height: 3.75pc;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     max-height: 100%;
-
+	flex-grow: 1;
+overflow-y: auto;
 }
 
 .container-2o3qEW { /*Memberslist*/
@@ -200,10 +201,11 @@ height: 3.75pc;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-	flex-wrap: wrap;
+
     box-shadow:0 70px 0px rgba(var(--transparencycolor),0.2);
     height: calc(100% - var(--message-bar-height));
     overflow: auto;
+	flex-wrap: nowrap;
 }
 .content-1jQy2l {
     min-width: 0;
