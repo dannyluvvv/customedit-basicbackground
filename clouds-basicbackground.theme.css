@@ -316,7 +316,7 @@ backdrop-filter: blur(0px);
 	--channeltextarea-background: rgba(var(--transparencycolor), 0.1);
 	--background-accent: rgba(var(--transparencycolor), .5);
 	--logo-primary: pink; /*default rgb(var(--textbrightest))*/
-    --message-bar-height: 64px;
+    --message-bar-height: auto;
 	--voicemicmute-bar-height: var(--message-bar-height)
 	--background-primary: rgba(var(--transparencycolor), .2);
 	--background-secondary: rgba(var(--transparencycolor), .2);
