@@ -15,14 +15,15 @@ Changes to template:
 - pink themed buttons and text
 - minor transparency changes for looks
 - stronger shadow boxes
+- bit more rounded, less jumpy way
 
 Known flaws:
 - date display for above first message of the day has weird corner issue
 - general issue with rounded corners on overlaying boxes
-- when in call, the vc-control-account-box expands creating weird step between vc-control-account-box with vc-control and enter-message-bar
-- profile modal not transparent enough
-- small visual issue at bottom right corner with enter-message-bar and members-list
-- shadow inconsistencies
+- when in call, the vc-control-account-box expands creating weird step between vc-control-account-box with vc-control and enter-message-bar (WIP)
+- profile modal not transparent enough (TBF)
+- small visual issue at bottom right corner with enter-message-bar and members-list (WIP)
+- shadow inconsistencies 
 
 All in all this theme is still a work in progress. I am a beginner in this field, that's why this is just a simple css template edit.
 
