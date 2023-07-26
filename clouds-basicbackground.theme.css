@@ -18,10 +18,11 @@
 }
 .container-1qIct8{ /*unread label textchannelselection*/
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     overflow: hidden;
-    padding: 8px;
-    height: 24px;
+    
+    padding: 5px;
+    height: 30px;
     pointer.events: none;
 }
 .searchBar-3TnChZ {											/* header				searchbar							*/
@@ -41,19 +42,32 @@ element.style {
 .wrapper-3Hk9OB {
     position: relative;
     overflow: visible;
+    padding:5px;
+    border-radius: 50px;
+
 	
 }
+.actionButtons-2vEOUh {/*buttons accountvoice*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(0,1fr));
+    grid-gap: 3px;
+    padding-top: 5px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
 .container-1zzFcN {
     color: var(--header-primary);
     font-size: 14px;
     font-weight: 500;
-    padding: 10px;
+    padding: 3px;
     -ms-flex-negative: 0;
     flex-shrink: 0;
     border-bottom: 1px solid var(--background-modifier-accent);
     background: var(--transparencyalpha);
 }
-.container-YkUktl {
+.container-YkUktl { /*accound/vcinteractable*/
     height: 4pc;
     font-size: 14px;
     font-weight: 500;
@@ -94,9 +108,7 @@ height: 3.75pc;
 	
 }
 
-	
-	
-}
+
 .divider-2rZFJK.hasContent-31hcsn::before {
     content: "";
     position: absolute;
@@ -114,9 +126,9 @@ height: 3.75pc;
 }
 .content-3spvdd {
     position: absolute;
-    background-color: var((--transparencycolor),0.99);
-    padding: 5px 10px;
-    width: auto;
+    background-color: var((--transparencycolor),.99);
+    padding: 5px 5px;
+    width: fit-content;
 	text-align: center;
 }
 .managedReactiveScroller-1LjJZ5 {
@@ -136,17 +148,17 @@ height: 3.75pc;
     overflow: hidden;
     opacity: 1;
 }.jumpToPresentBar-1cEnH0 {
-    bottom: 0;
-    border-radius: 8px 8px 8px 8px;
+    bottom: 1;
+    border-radius: 8px;
     background-color: var(--background-accent);
     opacity: .95;
-    padding: 5px;
+    padding: 10px;
 	margin-bottom: 10px;
 }
 .barBase-3xxDXu {
     position: absolute;
-    left: 16px;
-    right: 16px;
+    left: 10px;
+    right: 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -160,6 +172,7 @@ height: 3.75pc;
     transition: opacity .15s;
     opacity: 0.95;
     cursor: pointer;
+    box-shadow: 0 0px 10px rgba(400,100,400,0.95)
 }
 #app-mount .panels-3wFtMD {
    height: var(--voicemicmute-bar-height);
@@ -174,7 +187,7 @@ height: 3.75pc;
 	border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 	box-shadow: 0 1px 50px rgba(var(--transparencycolor), .2), 0 1.5px 50px rgba(var(--transparencycolor), .2), 0 2px 50px rgba(var(--transparencycolor), .05);
-	height: var(--message-bar-height);
+	height: auto;
 	flex:0;
 	flex-basis:auto;
     
@@ -196,7 +209,11 @@ height: 3.75pc;
     height: 100%;
 	overflow:hidden scroll;
 }
-
+.membersWrap-3NUR2t {
+    background-color: rgba(var(--transparencycolor), var(--memberlisttransparency));
+    box-shadow:0 65px 0px rgba(var(--transparencycolor),0.2);
+	height: 100%;
+}
 .container-2o3qEW { /*Memberslist*/
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -261,7 +278,7 @@ height: 3.75pc;
 	
 }
 .panels-3wFtMD > *:not(:empty) ~ *:not(:empty) { /*muteaccountvoicepanel*/
-    border-top: 0px solid rgba(var(--transparencycolor), .2);
+    border-top: 5px solid rgba(var(--transparencycolor), .2);
 }
 .channelTextArea-1FufC0 { /*messagebar only*/
  
@@ -289,14 +306,10 @@ height: 3.75pc;
 .content-3spvdd::before, .content-3spvdd::after {
     content: "";
     position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
     pointer-events: none;
-    opacity: calc(1 - var(--usechatbubbles));
+    opacity: calc(100% - var(--usechatbubbles));
     z-index: -1;
-	border-radius: 10px;
+	border-radius: 8px;
 backdrop-filter: blur(0px);
 }
 :root {
