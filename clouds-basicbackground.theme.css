@@ -204,7 +204,7 @@ div.container-zero{
     flex-direction: column;
     box-shadow:0 70px 0px rgba(var(--transparencycolor),0.2);
     height: calc(100% - var(--message-bar-height));
-    overflow: auto;
+    flex:1;
 }
 .content-1jQy2l {
     min-width: 0;
