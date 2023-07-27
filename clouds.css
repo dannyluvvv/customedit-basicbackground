@@ -7784,7 +7784,7 @@ html:only-child > head + body div.typeWindows-2-g3UY.titleBar-1it3bQ.horizontalR
 }
 
 html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg > div.layers-OrUESM.layers-1YQhyW > div.layer-86YKbF.baseLayer-W6S8cY + div.layer-86YKbF > div.standardSidebarView-E9Pc3j::after {
-	content: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Cat_silhouette.svg/400px-Cat_silhouette.svg.png') !important;
+	content: url() !important;
 	display: inline !important;
 	position: absolute !important;
 	left: unset !important;
