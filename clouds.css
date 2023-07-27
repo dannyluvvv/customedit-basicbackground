@@ -7784,7 +7784,7 @@ html:only-child > head + body div.typeWindows-2-g3UY.titleBar-1it3bQ.horizontalR
 }
 
 html:only-child > head + body div.app-3xd6d0 > div.app-2CXKsg > div.layers-OrUESM.layers-1YQhyW > div.layer-86YKbF.baseLayer-W6S8cY + div.layer-86YKbF > div.standardSidebarView-E9Pc3j::after {
-	content: url() !important;
+	content: url(https://raw.githubusercontent.com/dannyluvvv/customedit-basicbackground/main/Mediamodifier-Design.svg) !important;
 	display: inline !important;
 	position: absolute !important;
 	left: unset !important;
