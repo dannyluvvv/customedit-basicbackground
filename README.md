@@ -31,6 +31,7 @@ AONFIX - As Of Now Fixed <br>
 AONUNK - As Of Now Unknown .... issue not found/not appearing <br>
 PFId - Potentially Fixed Indirectly --> the issue did not appear anymore after a change <br>
 WoAIn - Works As Intended <br>
+WFASAP - Will Be Fixed As Fast As Possible
 <br>
 Known flaws: <br>
 - date display for above first message of the day has weird corner issue (WIP)
@@ -40,7 +41,7 @@ Known flaws: <br>
 - profile modal not transparent enough (WIP)
 - ~~small visual issue at bottom right corner with enter-message-bar and members-list~~ (AOUNK)
 - shadow inconsistencies with the member-list (WIP)
-
+- down left vc/stream icons are inconsistent in color with text right next to it (WFASAP)
 *a third and fourth version with the improved symmetry will be done, until further though only the current ones are available <br>
 
 ### FINAL WORDS <br>
