@@ -372,7 +372,7 @@ backdrop-filter: blur(0px);
 	--textdarker: 					145,133,138;				/* default: 125,125,125			(text color for darker texts)													*/
 	--textdarkest: 					145,133,138;					/* default: 90,90,90			(text color for the darkest texts)												*/
 	
-	--version1_0_5:					none;						/* DO NOT CHANGE THIS VARIABLE , USED TO HIDE UPDATE NOTICE		
+	--version:					none;						/* DO NOT CHANGE THIS VARIABLE , USED TO HIDE UPDATE NOTICE		
 	*/
 	
 }
