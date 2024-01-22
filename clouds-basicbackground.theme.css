@@ -349,8 +349,8 @@ backdrop-filter: blur(0px);
 	--textshadow:					purple;				/* default: transparent			(textshadow for text ontop of accentcolor nodes, ONLY accepts a color, no px)	*/
 	--settingsicons:				1;							/* Use Settings Icons in User/Server/Channel Settings: 1 = yes, 0 = no											*/
 	
-	/*--background:					url(https://tenor.com/view/vintage-mood-sky-aesthetic-gif-16788474.gif);	/* general background image				*/
-	--background:					url(images/s2rCM7Y.jpg); /*second background choice*/
+	--background:					url(images/s2rCM7Y.jpg);	/* general background image*/
+	/*--background:					url(https://tenor.com/view/vintage-mood-sky-aesthetic-gif-16788474.gif); /*second background choice*/
 	--backgroundposition:			center;						/* default: center				(position of background - values: [center/top/right/bottom/left])				*/
 	--backgroundsize:				cover;						/* default: cover				(sizefit of background - values: [cover/contain/auto])							*/
 	--backgroundblur:				5px;						/* default: unset				(blur in px, only works when --background is set to an image)					*/
