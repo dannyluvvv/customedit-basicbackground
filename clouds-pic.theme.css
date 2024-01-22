@@ -350,7 +350,7 @@ backdrop-filter: blur(0px);
 	--settingsicons:				1;							/* Use Settings Icons in User/Server/Channel Settings: 1 = yes, 0 = no											*/
 	
 	--background:url(https://github.com/dannyluvvv/customedit-basicbackground/blob/main/images/s2rCM7Y.jpg?raw=true);/*general image*/
-	/*--background:					url(https://tenor.com/view/vintage-mood-sky-aesthetic-gif-16788474.gif); /*second background choice*/
+	
 	--backgroundposition:			center;						/* default: center				(position of background - values: [center/top/right/bottom/left])				*/
 	--backgroundsize:				cover;						/* default: cover				(sizefit of background - values: [cover/contain/auto])							*/
 	--backgroundblur:				10px;						/* default: unset				(blur in px, only works when --background is set to an image)					*/
