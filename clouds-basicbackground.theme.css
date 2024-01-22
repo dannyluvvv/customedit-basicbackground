@@ -9,7 +9,7 @@
 
 
 
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css);
+@import url(https://raw.githubusercontent.com/dannyluvvv/customedit-basicbackground/main/clouds.css);
 
 #app-mount .wrapper-1_HaEi {								/*server side bar*/
 	background-color: rgba(var(--transparencycolor), calc(var(--guildchanneltransparency) * 0));
@@ -335,11 +335,11 @@ backdrop-filter: blur(0px);
 	--background-modifier-accent: rgba(var(--textbrightest),.05);
 	--background-message-automod: rgba(var(--dangercolor),.05);
 	--background-message-automod-hover: rgba(var(--dangercolor),.2);
-	
+	/*colors*/
 	--successcolor: 91, 164, 94;
-    --warningcolor: 205, 25, 70;
+	--warningcolor: 205, 25, 70;
 	--settingsiconsgap: 0;
---dangercolor: 69, 13, 28;
+	--dangercolor: 69, 13, 28;
 	--accentcolor:					156,109,163,1;					/* default: 190,78,180			(RGB-format - blurple: 88,101,242 bd-blue: 58,113,193)							*/
 	--accentcolor2:					156,109,180,1; /*default: var(--accentcolor)*/
 	--mentioncolor:					205,25,70; /*default: var(--accentcolor)*/
@@ -349,11 +349,11 @@ backdrop-filter: blur(0px);
 	--textshadow:					purple;				/* default: transparent			(textshadow for text ontop of accentcolor nodes, ONLY accepts a color, no px)	*/
 	--settingsicons:				1;							/* Use Settings Icons in User/Server/Channel Settings: 1 = yes, 0 = no											*/
 	
-	--background:					url(https://github.com/dannyluvvv/customedit-basicbackground/blob/main/images/s2rCM7Y.jpg?raw=true);	/* general background image*/
+	--background:url(https://github.com/dannyluvvv/customedit-basicbackground/blob/main/images/s2rCM7Y.jpg?raw=true);/*general image*/
 	/*--background:					url(https://tenor.com/view/vintage-mood-sky-aesthetic-gif-16788474.gif); /*second background choice*/
 	--backgroundposition:			center;						/* default: center				(position of background - values: [center/top/right/bottom/left])				*/
 	--backgroundsize:				cover;						/* default: cover				(sizefit of background - values: [cover/contain/auto])							*/
-	--backgroundblur:				5px;						/* default: unset				(blur in px, only works when --background is set to an image)					*/
+	--backgroundblur:				10px;						/* default: unset				(blur in px, only works when --background is set to an image)					*/
 	
 	--popout:						var(--background);			/* default: var(--background)	(change to use another background/color for modals/popouts)						*/
 	--popoutposition:				var(--backgroundposition);	/* default: center				(position of popout - values: [center/top/right/bottom/left])					*/
