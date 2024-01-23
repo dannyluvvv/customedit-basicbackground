@@ -15,8 +15,9 @@ I made various small changes to this template which I will list below. <br>
 - the discord logo is nitro only
 - other red marked icons are only vencord plugin features and aren't included in theme
 <br>
-### CHANGES TO DEVILBROS [BASICBACKGROUND](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground) TEMPLATE <br>
-Changes to template: <br>
+
+
+### CHANGES TO TEMPLATE <br>
 - Background (the basicbackground was replaced by a moving cloud gif, optionally replaceable by another [pink clouds](https://imgur.com/s2rCM7Y) image seen above)
 - some custom changes to the enter-message-bar which is now overlaying the members-list and looks pretty cool
 - pink/rose themed buttons and text
@@ -25,15 +26,16 @@ Changes to template: <br>
 - bit more rounded, less boxy stair-like way
 
 ### FIXES/CURRENT WORK IN PROGRESS <br>
-TBF - To Be Fixed <br>
-WIP - Work In Progress <br>
-AONFIX - As Of Now Fixed <br>
-AONUNK - As Of Now Unknown .... issue not found/not appearing <br>
-PFId - Potentially Fixed Indirectly --> the issue did not appear anymore after a change <br>
-WoAIn - Works As Intended <br>
-WFASAP - Will Be Fixed As Fast As Possible
+ **TBF** - To Be Fixed <br>
+ **WIP** - Work In Progress <br>
+ **AONFIX** - As Of Now Fixed <br>
+**AONUNK** - As Of Now Unknown .... issue not found/not appearing <br>
+**PFId** - Potentially Fixed Indirectly --> the issue did not appear anymore after a change <br>
+**WoAIn** - Works As Intended <br>
+**WFASAP** - Will Be Fixed As Fast As Possible
 <br>
-Known flaws: <br>
+
+#### KNOWN FLAWS: <br>
 - date display for above first message of the day has weird corner issue (WIP)
 - weird date display inconsistency in private messaging and server messaging, where the background of the date display displays the background squished first and after changing to privatemessaging and back it fixes itself (WIP)
 - general issue with rounded corners on overlaying boxes
@@ -41,7 +43,8 @@ Known flaws: <br>
 - profile modal not transparent enough (WIP)
 - ~~small visual issue at bottom right corner with enter-message-bar and members-list~~ (AOUNK)
 - shadow inconsistencies with the member-list (WIP)
-- down left vc/stream icons are inconsistent in color with text right next to it (WFASAP)
+- down left vc/stream icons are inconsistent in color with text right next to it (WFASAP) <br>
+<br>
 *a third and fourth version with the improved symmetry will be done, until further though only the current ones are available <br>
 
 ### FINAL WORDS <br>
