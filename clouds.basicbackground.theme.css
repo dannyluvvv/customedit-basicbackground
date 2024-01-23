@@ -1,0 +1,468 @@
+/**
+ * @name Clouds
+ * @description A beautiful theme for discord clients.
+ * @authorOfEdit dannyluvvv
+ * @website https://.github.io/dannyluvvv
+ * @version 0.9.0
+ * @updateUrl https://github.com/dannyluvvv/customedit-basicbackground/edit/main/clouds-basicbackground.theme.css
+ */
+
+
+
+@import url(https://raw.githubusercontent.com/dannyluvvv/customedit-basicbackground/main/clouds.css);
+
+#app-mount /*.wrapper-1_HaEi*/ .sidebar_ded4b5 {								/*server side bar*/
+	background-color: rgba(var(--transparencycolor), calc(var(--guildchanneltransparency) * 0));
+	
+	
+}
+.container{ /*unread label textchannelselection*/
+    position: absolute;
+    z-index: 3;
+    overflow: hidden;
+    
+    padding: 5px;
+    height: 30px;
+    pointer-events: none;
+}
+.searchBar_e0c60b {											/* header				searchbar							*/
+	padding: 0px 5px;
+}
+.searchBar_e4ea2a { 	/* grouplist searchbar */
+  position: relative;
+  z-index: 2;
+  background-color: var(--background-primary);
+  flex: 0 0 auto;
+  padding: 0 10px;
+  height: var(--message-bar-height);
+  background-color: --;
+  display: flex;
+  align-items: center;
+  box-shadow: var(--defaultshadowtop);
+}
+
+#app-mount .panels__58331 {									/* account/voice		container							*/
+	
+	background-color: rgba(var(--transparencycolor),0.0 /*, calc(var(--guildchanneltransparency) /3)*/); 
+	box-shadow: var(--defaultshadowbottom);
+	
+}
+element.style {
+    opacity: 0.85;
+    background: var(--black-500);
+}
+.wrapper-3Hk9OB {
+    position: relative;
+    overflow: visible;
+    padding:5px;
+    border-radius: 50px;
+
+	
+}
+.button__4f306 {/*buttons accountvoice*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(0,1fr));
+    grid-gap: 3px;
+    padding-top: 0px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.container-1zzFcN {
+    color: var(--background-primary);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 3px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--background-modifier-accent);
+    background: var(--transparencyalpha);
+}
+.container_ca50b9 { /*accound/vcinteractable*/
+    height: var(--message-bar-height);
+    font-size: 14px;
+    font-weight: 500;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0px 10px;
+    margin-bottom: 0px;
+	
+	
+}
+.container__11d72.themed_b152d4 {							/* header	"top of chat"			themedcontainer						*/
+	box-shadow: var(--defaultshadowtop);
+    background-color: var(--background-primary);
+    padding: 10px 10px;
+    height: var(--message-bar-height);
+}
+
+.divider__8cf56.hasContent__8519e {
+    border-width: calc(1px * (1 - var(--usechatbubbles)));
+}
+.cozy-VmLDNB .header-2jRmjb::after, .cozy-3hKWhq .header-35u4WP::after {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: -32px;
+    border: 0px solid transparent;
+    border-right: 12px solid rgba(var(--transparencycolor), var(--messagetransparency));
+}
+.group-spacing-16 .divider__8cf56.hasContent__8519e{
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.content-3spvdd::before {
+    background: var(--background) var(--backgroundposition)/var(--backgroundsize);
+    background-attachment: fixed;
+	
+}
+
+
+.divider-2rZFJK.hasContent-31hcsn::before {
+    content: "";
+    position: absolute;
+    top: -0.6rem;
+    bottom: -0.6rem;
+    right: -0.2rem;
+    left: 0;
+    background: rgba(var(--transparencycolor), calc(var(--messagetransparency) * 0.5));
+    border-radius: 5px;
+    pointer-events: none;
+    z-index: -1;
+}
+.layer__2efaa:nth-child(1), .withLayer-2VVmpp:nth-child(1) {
+   z-index:0;
+}
+.scroller_c8d5ad{ /*searchbar*/
+    margin-bottom: calc(100% - calc(100% - var(--message-bar-height)));
+}
+.content-3spvdd {
+    position: absolute;
+    background-color: var((--transparencycolor),.99);
+    padding: 5px 5px;
+    width: fit-content;
+	text-align: center;
+}
+.managedReactiveScroller-1LjJZ5 {
+    overflow-y: auto;
+    overflow-x: hidden;
+	
+}
+
+.profileColors__2e2f0 { /*user profile*/
+    --profile-body-background-color: rgba(0,0,0,.4) !important;
+    --profile-body-divider-color: var(--transparencyalpha) !important; /*default:var(--background-modifier-accent)*/
+    --profile-body-divider-opacity: 1 !important;
+}
+.profilePanel__12596 {
+    margin-bottom: calc(calc(100% - calc(100% - var(--message-bar-height))) - var(--message-bar-height));;
+    z-index: 1;
+    
+}
+
+.jumpToPresentBar-1cEnH0 {
+    background-color: transparent;
+    overflow: hidden;
+    opacity: 1;
+}.jumpToPresentBar-1cEnH0 {
+    bottom: 1;
+    border-radius: 8px;
+    background-color: var(--background-accent);
+    opacity: .95;
+    padding: 10px;
+	margin-bottom: 10px;
+}
+.barBase-3xxDXu {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 2;
+    min-height: 24px;
+    text-transform: capitalize;
+    -webkit-transition: opacity .15s;
+    transition: opacity .15s;
+    opacity: 0.95;
+    cursor: pointer;
+    box-shadow: 0 0px 10px rgba(400,100,400,0.95)
+}
+
+
+.form__13a2c { /*message bar, type message*/
+    background: rgba(0, 0, 0, 0);
+	margin-right: -26.5pc;
+	margin-left:-240px;
+    padding:0px 27.5pc 0px 250px;
+    /*border-top-right-radius: calc(8px * (1 - (var(--memberlisttransparency) / (var(--memberlisttransparency) + 0.00000000000000000000001))));
+    border-top-left-radius: calc(8px * (1 - (var(--guildchanneltransparency) / (var(--guildchanneltransparency) + 0.00000000000000000000001))));*/
+	border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+	box-shadow: var(--defaultshadowbottom);
+	height: auto;
+	flex:0;
+	flex-basis:auto;
+}
+.channelTextArea__2e60f { /*messagebar only*/
+ margin: 10px 10px;
+}
+
+.container_b2ce29c {
+    background: rgba(var(--transparencycolor), .3);
+    border: none;
+    border-bottom: 1px solid var(--background-modifier-accent);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.members__9f47b { /*members list2*/
+  /*.memberInner_a32223{*/  width: 240px;
+    padding: 0 0 20px 0px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    height: calc(100% - var(--message-bar-height));
+	overflow:hidden scroll;
+}
+.membersWrap__90226 {
+    background-color: rgba(var(--transparencycolor), var(--memberlisttransparency));
+    box-shadow:0 65px 0px rgba(var(--transparencycolor),0.2);
+	height: 100%;
+}
+.container_b2ce29c .members__9f47b { /*Memberslist*/
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    box-shadow:0 64px 0px rgba(var(--transparencycolor),0.2);
+    height: 100%;
+    overflow: auto;
+
+}
+
+.separator__18122 {
+  box-sizing: border-box;
+  margin: 5px;
+  border-bottom: 1px solid var(--background-modifier-accent);
+}
+
+.message__80c10.ephemeral-2nDdnn, .message-2CShn3.replying-eZ7p5z {
+    background-image: var(--transparencyalpha);
+}
+.avatar_f8541f{
+    position: relative;
+    left: 0px;
+    margin-top: calc(4px - 0.125rem);
+    width: 40px;
+    height: 40px;
+    border-radius: 0%;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    pointer-events: none;
+    z-index: 1;
+}
+.scrollerSpacer__9cd32 {
+    display: block;
+    height: 16px;
+    width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    pointer-events: none;
+}
+.theme-dark .panels__58331 {
+    background: transparent;
+	margin: 0px;
+	
+}
+.cozy_f5c119.wrapper__09ecc {
+    padding-left: 72px;
+	background: var(--transparencycolor),0.2;
+}
+.message__80c10, .messagesWrapper_ea2b0b .wrapper__09ecc, .card-3x20HF .wrapper-30-Nkg, .wrapper-15CKyy, .message-3g3FYR, .message-372Ods, .message-G6O-Wv .wrapper-30-Nkg, .messageGroupCozy-3v_RqN, .message-24k8JL .wrapper-30-Nkg {
+    background-color: rgba(var(--transparencycolor), var(--messagetransparency)) !important;
+    contain: unset;
+}
+.managedReactiveScroller__79923 {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.wrapper-3Hk9OB {
+    position: relative;
+    overflow: visible;
+	margin: 0px;
+	
+}
+.panels__58331 > *:not(:empty) ~ *:not(:empty) { /*muteaccountvoicepanel*/
+    border-top: 5px solid rgba(var(--transparencycolor), .2);
+}
+
+.userPanelInnerThemed__1804b {
+    background: -webkit-gradient(linear,left top,left bottom,from(var(--profile-gradient-primary-color)),to(var(--profile-gradient-secondary-color)));
+    background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color));
+}
+.header__104ca{ /*server title*/
+    box-shadow: var(--defaultshadowtop);
+    height: var(--message-bar-height); 
+    padding: 0px 5px; 
+    background-color: var(--background-primary);
+}	
+.theme-dark .scroller__1f96e {
+    background: var(--transparencyalpha); /*default:var(--bg-overlay-3,var(--background-secondary))*/
+}
+.primaryInfo_b44f9d { /*server title text only*/
+    padding:18px;
+}
+.attachedBars-2BCP3l {
+    background: var(--transparencyalpha);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.emojiPicker_b65ce9 { /*emoji picker*/
+  background-color: var(--background-secondary);
+  border-radius: var(--custom-emoji-picker-border-radius);
+  box-shadow: var(--elevation-stroke),var(--elevation-high);
+  display: grid;
+  grid-template-columns: 48px auto;
+  grid-template-rows: auto 1fr auto;
+  height: var(--custom-emoji-picker-constants-emoji-picker-height);
+  overflow: hidden;
+  width: var(--custom-emoji-picker-constants-min-emoji-picker-width);
+}
+.contentWrapper__321ed {
+  background-color: var(--background-secondary);
+  border-radius: 8px;
+  box-shadow: var(--elevation-stroke),var(--elevation-high);
+  box-sizing: border-box;
+  display: grid;
+  flex: 1 1 auto;
+  grid-template-rows: 24px auto;
+  grid-row-gap: 8px;
+  height: 100%;
+  overflow: hidden;
+  padding-top: 16px;
+  position: relative;
+  z-index: 1;
+  opacity: 1;
+}
+.drawerSizingWrapper__30274 {
+  height: 99%;
+  max-width: 100%;
+  pointer-events: all;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.unicodeShortcut__1dd6b {
+  align-items: center;
+  background: inherit;
+  color: var(--interactive-normal);
+  cursor: pointer;
+  bottom: 0;
+  display: flex;
+  height: var(--custom-emoji-picker-constants-unicode-category-shortcut-height);
+  justify-content: center;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  transition: opacity 0.1s,transform 0.1s;
+  width:100%;
+}
+
+.container__7c79dd{position:relative; height: var(--message-bar-height);}
+.clickable__2d589{cursor:pointer; height: var(--message-bar-height);} /*Server Name*/
+.content-3spvdd::before, .content-3spvdd::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    opacity: calc(100% - var(--usechatbubbles));
+    z-index:-1;
+	border-radius: 8px;
+backdrop-filter: blur(0px);
+}
+
+:root {
+	--transparencycolor:			5,0,0;						/* default:	0,0,0																								*/
+	--transparencyalpha:			0.55;						/* default: 0.15				(general darkness of the app)													*/
+	--messagetransparency:			.0;						/* default: 0.5					(additional shadows behind messages, set to 0 to remove boxes)					*/
+	--guildchanneltransparency:		0.2;						/* default: 0.15				(additional darkness for guild/channel list)									*/
+	--chatinputtransparency:		0.0;						/* default: 0.0					(additional darkness for chat input container)									*/
+	--memberlisttransparency:		0.0;						/* default: 0.0					(additional darkness for member list)											*/
+	--input-background: rgba(var(--transparencycolor), 0.1);
+	--channeltextarea-background: rgba(var(--transparencycolor), .1);
+	--background-accent: rgba(var(--transparencycolor), .5);
+	--logo-primary: rgb(var(--textbrightest)); /*default rgb(var(--textbrightest))*/
+    --message-bar-height: 4pc;
+	--voicemicmute-bar-height: var(--message-bar-height);
+	--background-primary: rgba(var(--transparencycolor), .2);
+	--background-secondary: rgba(var(--transparencycolor), .2);
+	--background-secondary-alt: rgba(var(--transparencycolor), .2);
+	--background-tertiary: rgba(var(--transparencycolor), .2);
+	--background-floating: rgba(var(--transparencycolor), .2);
+	--background-mobile-primary: rgba(var(--transparencycolor), .2);
+	--background-mobile-secondary: rgba(var(--transparencycolor), .2);
+	--background-modifier-accent: rgba(var(--textbrightest), .05);
+	--background-message-automod: rgba(var(--dangercolor),.05);
+	--background-message-automod-hover: rgba(var(--dangercolor),.2);
+
+	/*colors*/
+	--successcolor: 91, 164, 94;
+	--warningcolor: 205, 25, 70;
+	--settingsiconsgap: 0;
+	--dangercolor:                  255, 10, 150;
+	--accentcolor:					200,100,185,0.6;					/* default: 190,78,180			(RGB-format - blurple: 88,101,242 bd-blue: 58,113,193)							*/
+	--accentcolor2:					156,109,180,1; /*default: var(--accentcolor)*/
+	--mentioncolor:					255,50,100; /*default: var(--accentcolor)*/
+	--linkcolor:				    255, 155, 255; /*default: var(--accentcolor)*/
+
+	--font:							 "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;		/* font used in most places								*/
+	--textshadow:					purple;				/* default: transparent			(textshadow for text ontop of accentcolor nodes, ONLY accepts a color, no px)	*/
+	--settingsicons:				1;							/* Use Settings Icons in User/Server/Channel Settings: 1 = yes, 0 = no											*/
+	
+	--background:                   url(https://github.com/dannyluvvv/customedit-basicbackground/blob/main/images/s2rCM7Y.jpg?raw=true);/*general image*/
+	
+	--backgroundposition:			center;						/* default: center				(position of background - values: [center/top/right/bottom/left])				*/
+	--backgroundsize:				cover;						/* default: cover				(sizefit of background - values: [cover/contain/auto])							*/
+	--backgroundblur:				5;						/* default: unset				(blur in px, only works when --background is set to an image)					*/
+	
+	--popout:						var(--background);			/* default: var(--background)	(change to use another background/color for modals/popouts)						*/
+	--popoutposition:				var(--backgroundposition);	/* default: center				(position of popout - values: [center/top/right/bottom/left])					*/
+	--popoutsize:					var(--backgroundsize);		/* default: cover				(sizefit of popout - values: [cover/contain/auto])								*/
+	--popoutblur:					var(--backgroundblur);			/*	(blur in px, only works when --popout is set to an image)						*/
+	
+	--backdrop:						rgba(0,0,0,0.6);			/* default: rgba(0,0,0,0.85)	(change to use another background/color for backdrops)							*/
+	--backdropposition:				center;						/* default: center				(position of backdrop - values: [center/top/right/bottom/left])					*/
+	--backdropsize:					cover;						/* default: cover				(sizefit of backdrop - values: [cover/contain/auto])							*/
+	--backdropblur:					5;						/* default: unset				(blur in px, only works when --backdrop is set to an image)						*/
+	
+	--textbrightest: 				255,255,255;				/* default: 255,255,255			(text color for the brightest texts)											*/
+	--textbrighter: 				238, 200, 238;				/* default: 222,222,222			(text color for brighter texts)													*/
+	--textbright: 					237,200,237;				/* default: 200,200,200			(text color for bright texts)													*/
+	--textdark: 					194,157,174;				/* default: 160,160,160			(text color for dark texts)														*/
+	--textdarker: 					145,133,138;				/* default: 125,125,125			(text color for darker texts)													*/
+	--textdarkest: 					145,133,138;					/* default: 90,90,90			(text color for the darkest texts)												*/
+	
+    --defaultshadowbottom:          0 1px 50px rgba(var(--transparencycolor), .2), 0 1.5px 50px rgba(var(--transparencycolor), .2), 0 2px 50px rgba(var(--transparencycolor), .4);
+    --defaultshadowtop:             0 -1px 50px rgba(var(--transparencycolor), .2), 0 -1.5px 50px rgba(var(--transparencycolor), .2), 0 -2px 50px rgba(var(--transparencycolor), .4);
+
+	--version:					none;						/* DO NOT CHANGE THIS VARIABLE , USED TO HIDE UPDATE NOTICE		
+	*/
+	
+}
