@@ -18,12 +18,12 @@ I made various small changes to this template which I will list below. <br>
 
 
 ### CHANGES TO TEMPLATE <br>
-- Background (the basicbackground was replaced by a moving cloud gif, optionally replaceable by another [pink clouds](https://imgur.com/s2rCM7Y) image seen above)
-- some custom changes to the enter-message-bar which is now overlaying the members-list and looks pretty cool
+- Background (the basicbackground was replaced by [pink clouds](https://imgur.com/s2rCM7Y) like in the image seen above and optionally a gif of moving clouds like with the gif version)
+- some custom changes to the enter-message-bar which is now overlaying the members-list and looks pretty cool (TBF)
 - pink/rose themed buttons and text
-- minor transparency changes for looks
+- minor transparency changes for looks (WIP)
 - stronger shadow boxes
-- bit more rounded, less boxy stair-like way
+- bit more rounded, less boxy stair-like way (TBF)
 
 ### FIXES/CURRENT WORK IN PROGRESS <br>
  **TBF** - To Be Fixed <br>
