@@ -71,6 +71,6 @@
 	--textdarker: 					145, 133, 138;				/* default: 125,125,125			(text color for darker texts)													*/
 	--textdarkest: 					130, 115, 125;				/* default: 90,90,90			(text color for the darkest texts)												*/
 	
-	--version_1_0_5:					none;					/* DO NOT CHANGE THIS VARIABLE , USED TO HIDE UPDATE NOTICE	*/
+	--version:					none;					/* DO NOT CHANGE THIS VARIABLE , USED TO HIDE UPDATE NOTICE	*/
 	
 }
