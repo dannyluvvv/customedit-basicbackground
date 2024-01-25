@@ -4,6 +4,8 @@ The ground stone for this theme was the [BasicBackground](https://github.com/mwi
 
 I made various changes to this template which I will list below. <br>
 
+ **This theme will be laggy on low-end pcs or laptops, because it uses transparency in it's nature.**
+
 ### CLOUDS-BASICBACKGROUND(-GIF).THEME.CSS
 #### Gif Version
 ![image](https://github.com/dannyluvvv/customedit-basicbackground/assets/140633387/b5b734f0-af50-47a0-ba06-53800819cef3)
