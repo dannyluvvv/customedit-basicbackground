@@ -332,3 +332,20 @@ code {
     padding: calc(var(--custom-channel-textarea-text-area-height) / 2 - var(--chat-markup-line-height) / 2) 0;
     margin-left: 10px;
 }
+
+.avatar_c19a55 {
+    position: absolute;
+    left: var(--custom-message-margin-horizontal);
+    margin-top: calc(4px - var(--custom-message-spacing-vertical-container-cozy));
+    width: var(--chat-avatar-size);
+    height: var(--chat-avatar-size);
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    flex: 0 0 auto;
+    pointer-events: none;
+    z-index: 1
+}
