@@ -149,16 +149,16 @@
 }
 
 :root {
-    --channels-name-line-height: 120px;
+    --channels-name-line-height: 20px;
     --channels-spine-inverted-offset-top: 8px;
     --channels-spine-offset-left: 22px;
-    --chat-avatar-size: 140px;
+    --chat-avatar-size: 40px;
     --chat-input-icon-size: 24px;
     --chat-markup-line-height: 1.375rem;
     --chat-resize-handle-width: 8px;
     --form-input-height: 48px;
-    --guildbar-avatar-size: 90px;
-    --guildbar-folder-size: 148px;
+    --guildbar-avatar-size: 48px;
+    --guildbar-folder-size: 48px;
     --modal-horizontal-padding: 16px;
     --modal-vertical-padding: 16px;
     --modal-width-large: 800px;
@@ -193,17 +193,6 @@
     --channels-spine-offset-left: 28px
 }
 
-a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,form,h1,h2,h3,h4,h5,h6,html,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,table,tbody,td,tfoot,th,thead,tr,tt,ul,var {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-weight: inherit;
-    font-style: inherit;
-    font-family: inherit;
-    font-size: 100%;
-    vertical-align: baseline
-}
-
 a {
     color: var(--text-link);
     -webkit-text-decoration: none;
@@ -212,86 +201,14 @@ a {
 }
 
 a img {
-    border: none
+    border: 3px solid white;
 }
 
-body {
-    line-height: 1;
-    margin: 0;
-    padding: 0;
-    font-family: var(--font-primary);
-    overflow: hidden;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    background: transparent
-}
-
-p {
-    margin: 14px 0
-}
-
-ol,ul {
-    list-style: none
-}
-
-::-moz-placeholder {
-    font-family: var(--font-primary);
-    font-weight: 400
-}
-
-::placeholder,input,select,textarea {
-    font-family: var(--font-primary);
-    font-weight: 400
-}
 button {
     font-family: var(--font-primary);
     font-weight: 500;
-    border: 0;
+    border: 3px solid aqua;
     cursor: pointer
-}
-
-code {
-    font-family: var(--font-code);
-    font-size: 14px;
-    line-height: 16px
-}
-.message__89466 {
-    position: relative;
-    border-radius: 3px;
-    overflow: hidden;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    pointer-events: none;
-    background-color: var(--background-primary);
-    box-shadow: var(--legacy-elevation-border),var(--legacy-elevation-high)
-}
-
-.wrapper_f563df {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 1fr;
-    justify-items: center;
-    padding: 4px 0 6px 2px
-}
-
-.sidebarScrollable__53543 {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: var(--custom-layout-sidebar-width)
-}
-
-.sidebarScrollable__53543+.content__53543 {
-    margin-left: var(--custom-layout-sidebar-width);
-    max-width: 468px
-}
-
-.scroller__53543 {
-    overflow-y: auto;
-    overflow-x: hidden;
-    background-color: var(--background-primary);
-    height: 100%
 }
 
 .profileCard__9e177 {
@@ -305,47 +222,4 @@ code {
     box-shadow: 0 8px 16px rgba(0,0,0,.1);
     box-sizing: border-box;
     overflow: hidden
-}
-
-.avatarContainer__9e177 {
-    background-color: var(--background-primary);
-    height: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 16px
-}
-
-.avatarName__9e177 {
-    margin-top: 8px
-}
-
-.roles__9e177 {
-    position: absolute;
-    top: 152px;
-    filter: drop-shadow(0 8px 16px rgba(0,0,0,.1));
-    opacity: 1
-}
-.visual-refresh .slateTextArea_ec4baf {
-    box-sizing: border-box;
-    min-height: var(--custom-channel-textarea-text-area-height);
-    padding: calc(var(--custom-channel-textarea-text-area-height) / 2 - var(--chat-markup-line-height) / 2) 0;
-    margin-left: 10px;
-}
-
-.avatar_c19a55 {
-    position: absolute;
-    left: var(--custom-message-margin-horizontal);
-    margin-top: calc(4px - var(--custom-message-spacing-vertical-container-cozy));
-    width: var(--chat-avatar-size);
-    height: var(--chat-avatar-size);
-    border-radius: 50%;
-    overflow: hidden;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    flex: 0 0 auto;
-    pointer-events: none;
-    z-index: 1
 }
