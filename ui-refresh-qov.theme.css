@@ -149,16 +149,16 @@
 }
 
 :root {
-    --channels-name-line-height: 20px;
+    --channels-name-line-height: 120px;
     --channels-spine-inverted-offset-top: 8px;
     --channels-spine-offset-left: 22px;
-    --chat-avatar-size: 40px;
+    --chat-avatar-size: 140px;
     --chat-input-icon-size: 24px;
     --chat-markup-line-height: 1.375rem;
     --chat-resize-handle-width: 8px;
     --form-input-height: 48px;
-    --guildbar-avatar-size: 48px;
-    --guildbar-folder-size: 48px;
+    --guildbar-avatar-size: 90px;
+    --guildbar-folder-size: 148px;
     --modal-horizontal-padding: 16px;
     --modal-vertical-padding: 16px;
     --modal-width-large: 800px;
