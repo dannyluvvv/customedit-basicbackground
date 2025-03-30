@@ -8,26 +8,3 @@
  */
 @import url(https://raw.githubusercontent.com/dannyluvvv/customedit-basicbackground/main/clouds-ui-refresh.css);
 
-.textAreaSlate__74017 {
-    box-sizing: border-box;
-    padding: 0;
-}
-.textArea__74017 {
-    background-color: transparent;
-    resize: none;
-    border: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    box-sizing: border-box;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.375rem;
-    width: 100%;
-    height: var(--custom-channel-textarea-text-area-height);
-    min-height: var(--custom-channel-textarea-text-area-height);
-    color: var(--text-normal);
-    padding-left: 0;
-    padding-right: 10px;
-	margin-bottom:0;
-}
